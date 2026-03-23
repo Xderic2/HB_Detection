@@ -1,0 +1,18 @@
+# Data files (download via: python download_data.py)
+data/*.csv
+data/*.zip
+data/*.h5
+data/*.hdf5
+data/*.parquet
+
+# Keep the data directory
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+.env
+*.kaggle/
